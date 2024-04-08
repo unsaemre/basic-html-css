@@ -1,0 +1,35 @@
+body {
+    /* background-color: aquamarine; */
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.name {
+    font-size: 14px;
+    color: #666;
+    width: 400px;
+    text-align: right;
+    /* background-color: #ddd; */
+    margin: 0 auto;
+}
+
+.contents {
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.contents p {
+    /* background-color: #ddd; */
+    margin: 40px 0;
+    padding: 20px 0;
+}
