@@ -12,9 +12,6 @@ body {
     color: #666;
 }
 
-.header {
-}
-
 /* nav */
 .nav {
     width: 1200px;
@@ -48,13 +45,52 @@ body {
     margin-right: 50px;
 }
 
-.nav .button {
-    
+.nav .button button {
+    width: 100px;
+    height: 50px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 50px;
 }
 
 /* nav end */
 
 /* hero */
 .hero {
-    margin-top: 100px;
+    margin: 150px 0; 
 }
+
+.hero .contents {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.hero .contents .photo img {
+    width: 570px;
+}
+
+.hero .contents .texts h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #444;
+}
+.hero .contents .texts h2 {
+    font-size: 60px;
+    color: #444;
+}
+.hero .contents .texts p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero .contents .texts button {
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid #666;
+    background-color: white;
+}
+
