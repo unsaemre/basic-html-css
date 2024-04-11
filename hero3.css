@@ -22,6 +22,20 @@ button {
     border-radius: 46px;
 }
 
+button.outline {
+    background-color: transparent;
+    color: #444;
+}
+
+button:hover {
+    background-color: #000;
+}
+
+button.outline:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 body {
     color: #666;
     line-height: 1.6;
@@ -29,18 +43,84 @@ body {
 .header {
     border-bottom: 1px solid #ccc;
 }
-.nav {
+ .nav {
     width: 1200px;
+    height: 72px;
     margin: 0 auto;
-    background-color: tan;
     display: flex;
     align-items: center;
 }
 
 .logo {
     display: flex;
+    margin-right: auto;
+    gap: 10px;
 }
 
 .menu {
     display: flex;
+    margin-right: 50px;
 }
+
+.menu li a {
+    padding: 0px 25px;
+    height: 72px;
+    display: block;
+    line-height: 72px;
+}
+
+.menu li a:hover {
+    color: #000;
+}
+
+.hero_wrap {
+    margin: 100px ;
+}
+
+.hero {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero .texts {
+    margin-bottom: 64px;
+}
+
+
+.hero .texts h3 {
+    font-size: 28px;
+}
+
+.hero .texts h2 {
+    font-size: 60px;
+}
+
+.hero .texts p {
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 24px;
+}
+
+.hero .texts .btns {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.banner_wrap{
+}
+
+.banner_wrap p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.banners {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+align-items: center;
+}
+
+
