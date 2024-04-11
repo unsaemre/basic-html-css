@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #666;
+    line-height: 1.6;
+}
+
+button {
+    width: 100px;
+    height: 46px;
+    border-radius: 46px;
+    border: 1px solid #444;
+    color: white;
+    background-color: #444;
+}
+
+button:hover {
+    background-color: black;
+}
+
+button.outline {
+    background-color: white;
+    color: black;
+}
+
+button.outline:hover {
+    background-color: #444;
+    color: #fff;
+}
+
+.header {
+    border-bottom: 1px solid #444;
+}
+
+.nav {
+    width: 1200px;
+    height: 72px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-right: auto;
+    gap: 10px;
+}
+
+.menu {
+    display: flex;
+    margin-right: 50px;
+}
+
+.menu li a {
+    padding: 0px 25px;
+    display: block;
+    height: 72px;
+    line-height: 72px;
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+.hero_wrap {
+    margin: 50px 0;
+}
+
+.hero {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.photo img {
+    width: 560px;
+    border-radius: 5%;
+}
+
+.hero .texts {
+}
+
+.hero .texts h1{
+    font-size: 54px;
+}
+.hero .texts h2{
+    font-size: 24px;
+    margin-top: 24px;
+}
+.hero .texts p {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.btns {
+    gap: 24px;
+    display: flex;
+}
