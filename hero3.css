@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    width: 100px;
+    height: 46px;
+    border: 1px solid #666;
+    background-color: #444;
+    color: #fff;
+    border-radius: 46px;
+}
+
+body {
+    color: #666;
+    line-height: 1.6;
+}
+.header {
+    border-bottom: 1px solid #ccc;
+}
+.nav {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: tan;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+}
