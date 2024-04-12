@@ -52,6 +52,13 @@ img {
     border: 1px solid #999;
 }
 
+.contents li:hover {
+    background-color: #bbc1c7;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+
 .contents li .sumb {
     width: 80px;
     height: 80px;
