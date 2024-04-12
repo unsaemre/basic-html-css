@@ -8,16 +8,67 @@ body {
     color: #666;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
-    width: 1200px;
-    margin: 0 auto;
+    width: 1220px;
+    margin: 120px auto;
 }
 
-.photo img {
-    width: 560px;
+.container .photo {
+    width: 550px;
+    height: 620px;
 }
 
-button {
-    width: 100px;
-    height: 46px;
+.container .photo img{
+    height: 100%;
+    object-fit:cover;
 }
+
+.title_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.title_wrap .titles {
+    width: 550px;
+}
+.title_wrap .btns {
+    width: 150px;
+    display: flex;
+    padding-top: 48px;
+    gap: 20px;
+}
+
+.title_wrap .btns i {
+    width: 64px;
+    height: 64px;
+    background-color: transparent;
+    border: 1px solid #444;
+    color: #444;
+    border-radius: 100%;
+    /* 중앙에 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 오게하기 */
+    font-size: 24px;
+}
+
+.title_wrap .btns i.filled {
+    background-color: #444;
+    color: #fff;
+}
+
+.title_wrap .titles h2 {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+
+.title_wrap .titles p {
+    font-size: 18px;
+}
+
