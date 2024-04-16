@@ -44,12 +44,52 @@ h1 {
     color: rgb(17, 17, 182)
 }
 
-
 .cal th:first-child, .cal td:first-child {
     color: red;
 }
 
 .cal .today {
     background-color: #7ea7e6;
+    color: white;
+}
+
+.container {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.cal2 {
+    font-size: 14px;
+}
+
+.cal2 th,.cal2 td {
+    border: 1px solid #999;
+    padding: 10px;
+}
+
+.cal2 th {
+    background-color: rgba(124, 124, 28, 0.418);
+    border-top: 2px solid #63330c;
+}
+
+.cal2 td {
+    text-align: right;
+    cursor: pointer;
+}
+
+.cal2 td:hover {
+    background-color: #6664b971;
+}
+
+.cal2 td:last-child, .cal2 th:last-child {
+    color: rgb(3, 3, 233);
+}
+
+.cal2 td:first-child, .cal2 th:first-child {
+    color: red;
+}
+
+.cal2 .today2 {
+    background-color: #1d1c49;
     color: white;
 }
