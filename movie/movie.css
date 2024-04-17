@@ -97,12 +97,12 @@ body {
     height: 100%;
     object-fit: cover;
     border-radius: 3%;
-    filter: brightness(1);
+    /* filter: brightness(1); */
 }
 
-.list li .photo:hover {
-    filter: brightness(0.5);
-}
+/* .list li .photo:hover {
+    filter: brightness(60%);
+} */
 
 /* over_box */
 .list li .over_box {
@@ -110,11 +110,42 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    
+}
+
+.list li .over_box .image {
+    width: 180px;
+    height: 260px;
+    margin-bottom: 16px;
+    display: block;
 }
 
 
+.list li .over_box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.list li .over_box:hover {
+    filter: brightness(50%);
+}
+
+.list li .image:hover{
+}
+
+.list li .over_box:hover .inner {
+    opacity: 1;
+}
+
 .list li .over_box .inner {
-    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
 }
 
 .list li .over_box .ticketing{
